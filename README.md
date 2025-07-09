@@ -69,26 +69,48 @@ React allows for building a modern SPA with great developer tooling and flexibil
 ```bash
 cd backend
 
+```
 # Install pipenv if not already installed
+```bash
 pip install pipenv
 
+```
 # Install all dependencies from Pipfile.lock
+
+```bash
 pipenv install
 
+```
 # Activate virtual environment
+
+```bash
 pipenv shell
 
+```
 # Run the Flask server
+
+```bash
 pipenv run python app.py
 
 
+```
 
 For frontend
+
+```bash
 cd frontend
 
+```
 # Install frontend dependencies
+
+```bash
 npm install
 
+```
 # Start the development server
+
+```bash
 npm start
+
+```
 
