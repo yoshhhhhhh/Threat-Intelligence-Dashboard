@@ -47,10 +47,13 @@ React allows for building a modern SPA with great developer tooling and flexibil
 
 
 
-Setup Instructions
+## ⚙️ Setup Instructions
 
+### 📁 Backend (`/backend/`)
 
-Project Structure (Backend)
+<details>
+<summary>📂 Project Structure</summary>
+
 /backend/
 ├── app.py               # Entry point to start the Flask server
 ├── config.py            # Configuration settings
@@ -59,26 +62,33 @@ Project Structure (Backend)
 ├── Pipfile              # Pipenv dependency file
 ├── Pipfile.lock         # Locked dependency versions
 
+</details>
 
+### 🔧 Installation & Running Backend
 
-cd backend 
-then install pipenv
+```bash
+cd backend
+
+# Install pipenv if not already installed
+pip install pipenv
+
+# Install all dependencies from Pipfile.lock
 pipenv install
 
-Then the start the environment:
+# Activate virtual environment
 pipenv shell
 
-then run the backend server:
+# Run the Flask server
 pipenv run python app.py
 
 
 
 For frontend
-navigate to
 cd frontend
 
-Then install all the modules:
+# Install frontend dependencies
 npm install
 
-then start the frontend application
+# Start the development server
 npm start
+
